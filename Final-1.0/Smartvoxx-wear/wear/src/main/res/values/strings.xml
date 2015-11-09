@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smartvoxx</string>
+
+    <!-- Schedules -->
+    <string name="welcome_devoxx">Devoxx</string>
+    <string name="welcome_devoxx_round">Devoxx R</string>
+
+    <!-- Talk -->
+    <string name="talk">Talk</string>
+    <string name="speaker">Speaker</string>
+    <string name="follow_me">Follow me:</string>
+    <string name="no_detail">No detail to display</string>
+
+    <!-- Confirmation -->
+    <string name="confirmation_open_on_phone">Open on phone</string>
+
+    <!-- Favorites -->
+    <string name="add_favorites">Add to my favorites</string>
+    <string name="remove_favorites">Remove from my favorites</string>
+
+
+
+</resources>

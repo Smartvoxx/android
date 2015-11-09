@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smartvoxx-wear</string>
+    <string name="hello_round">Hello Devoxx! (Round)</string>
+    <string name="hello_square">Hello Devoxx! (Square)</string>
+</resources>

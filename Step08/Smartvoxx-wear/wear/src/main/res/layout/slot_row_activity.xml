@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/roomName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room"
+            android:textColor="@color/orange"
+            android:textSize="12sp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:alpha="0.6"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/favorite"
+            android:src="@drawable/ic_favorite_on"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/talkTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="09:00 - 12:30"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:alpha="0.6"/>
+
+        <LinearLayout
+            android:id="@+id/trackColor"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/roomName"
+            android:background="@color/none_color"
+            android:orientation="vertical"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:alpha="0.6"/>
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/roomName"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Description"
+            android:textColor="@color/light_grey"
+            android:textSize="14sp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:alpha="0.6"
+            android:maxLines="2"/>
+
+
+    </RelativeLayout>
+
+</merge>
+

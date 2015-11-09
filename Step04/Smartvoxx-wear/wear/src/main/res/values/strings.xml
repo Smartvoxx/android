@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smartvoxx</string>
+
+    <!-- Schedules -->
+    <string name="welcome_devoxx">Devoxx</string>
+    <string name="welcome_devoxx_round">Devoxx R</string>
+</resources>

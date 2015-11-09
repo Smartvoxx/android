@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    app:layout_box="left|bottom|right">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/talk"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/talkType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Talk"
+        android:textColor="@color/talktype_color"
+        android:textSize="14sp"
+        android:paddingBottom="5dp"
+        android:layout_above="@+id/talkTime"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="false" />
+
+
+    <TextView
+        android:id="@+id/roomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Room"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        android:paddingBottom="5dp"
+        android:layout_above="@+id/talkTime"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/talkTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="00:00 - 00:00"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favorite"
+        android:src="@drawable/ic_favorite_off"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/talkType"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+    </android.support.wearable.view.BoxInsetLayout>

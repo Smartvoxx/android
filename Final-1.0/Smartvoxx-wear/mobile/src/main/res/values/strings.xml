@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smartvoxx</string>
+
+    <string name="hello_world">Hello Devoxx!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- REST API for Devoxx -->
+    <string name="devoxx_rest_api">http://cfp.devoxx.be/api</string>
+    <string name="devoxx_conference">DV15</string>
+
+    <!-- Notifications -->
+    <string name="remove_event">Remove from calendar</string>
+
+</resources>
