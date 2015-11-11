@@ -5,4 +5,6 @@ This is the demo project for the "Apps on your Wrist" University and Conference 
 
 Slides are [available on Slideshare](http://fr.slideshare.net/sarbogast/apps-on-your-wrist).
 
-Video of the presentation is there: https://www.youtube.com/watch?v=GVABnHK-Uzo
+Video of the presentation:
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/GVABnHK-Uzo/0.jpg)](http://www.youtube.com/watch?v=GVABnHK-Uzo)
